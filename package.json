@@ -1,0 +1,11 @@
+{
+  "name": "http-status-helper",
+  "version": "1.0.0",
+  "description": "This package will help a send the necessary and correct status into Request's",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Barbosa de Lima",
+  "license": "ISC"
+}
