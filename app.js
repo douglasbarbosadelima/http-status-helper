@@ -3,12 +3,12 @@ const statusCodeList = require('./statusCodeList');
 class StatusHelper {
 
   getInfoStatusCode(statusCode){
-    if(!statusCode) throw new Error('The paramter \'statusCode\' must be specified.');
+    if(!statusCode) return new Error('The paramter \'statusCode\' must be specified.');
     return statusCodeList[statusCode];
   }
 
   getInfoStatusByName(statusName){
-    if(!statusName) throw new Error('The paramter \'statusName\' must be specified.');
+    if(!statusName) return new Error('The paramter \'statusName\' must be specified.');
     return Object
       .values(statusCodeList)
       .map((data, i) => {
@@ -32,7 +32,9 @@ class StatusHelper {
   }
 
   getStatus(statusName, specify = 'code') {
-    if(!statusName) throw new Error('The paramter \'statusName\' must be specified.');
+    if(!statusName) return new Error('The paramter \'statusName\' must be specified.');
     return this.getInfoStatusByName(statusName)[specify];
   }
 }
+
+module.exports = () => StatusHelper;
