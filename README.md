@@ -1,3 +1,18 @@
+<p>
+ <a href="https://david-dm.org/douglasbarbosadelima/http-status-helper">
+    <img src="https://david-dm.org/douglasbarbosadelima/http-status.helper.svg"
+         alt="Dependency Status">
+  </a>
+ <a href="https://www.npmjs.com/package/http-status-helper">
+    <img src="https://img.shields.io/npm/v/http-status-helper.svg?style=flat-square"
+      alt="NPM Version">
+  </a>
+  <a href="https://www.npmjs.org/package/http-status-helper">
+    <img src="http://img.shields.io/npm/dm/http-status-helper.svg?style=flat-square"
+      alt="Downloads">
+  </a>
+</p>
+
 # http-status-helper
 This package will help a send the necessary and correct status into Request's
 
