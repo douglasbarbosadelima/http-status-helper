@@ -19,7 +19,7 @@ This package will help a send the necessary and correct status into Request's
 - How to use:
 
 ```js
-const StatusHelper = require('http-status-helper');
+const StatusHelper = require('http-status-helper')();
 const status = new StatusHelper();
 ```
 
