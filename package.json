@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "This package will help a send the necessary and correct status into Request's",
   "main": "app.js",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/douglasbarbosadelima/http-status-helper"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
